@@ -8,29 +8,38 @@ export const Footer = () => {
       </h2>
       <div className="flex flex-row items-center justify-center mt-4">
         <div className="flex flex-col items-center mr-10">
-          <img
-            width="60"
-            height="60"
-            src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
-            className="filter grayscale hover:filter-none cursor-pointer"
-          />
+          <a href="https://github.com/AlexBR784">
+            <img
+              width="60"
+              height="60"
+              alt="Github octocat image"
+              src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+              className="filter grayscale hover:filter-none cursor-pointer hover:animate-pulse"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center mr-10">
-          <img
-            width="60"
-            height="60"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
-            className="filter grayscale hover:filter-none cursor-pointer"
-          />
+          <a href="https://twitter.com/alexbr784">
+            <img
+              width="60"
+              height="60"
+              alt="Twitter logo image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
+              className="filter grayscale hover:filter-none cursor-pointer hover:animate-pulse"
+            />
+          </a>
         </div>
 
         <div className="flex flex-col items-center mr-10">
-          <img
-            width="60"
-            height="60"
-            src="https://seeklogo.com/images/F/frontend-mentor-logo-DD85EFE0E9-seeklogo.com.png"
-            className="filter grayscale hover:filter-none cursor-pointer"
-          />
+          <a href="https://www.frontendmentor.io/profile/AlexBR784">
+            <img
+              width="60"
+              height="60"
+              alt="Frontend Mentor image"
+              src="https://seeklogo.com/images/F/frontend-mentor-logo-DD85EFE0E9-seeklogo.com.png"
+              className="filter grayscale hover:filter-none cursor-pointer hover:animate-pulse"
+            />
+          </a>
         </div>
       </div>
     </footer>
