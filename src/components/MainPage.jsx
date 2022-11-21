@@ -14,13 +14,18 @@ export const MainPage = () => {
           <p className="text-left text-base text-white mt-8 font-Roboto md:text-2xl">
             Soy un ingeniero Multimedia con interés en el desarrollo web.
           </p>
-          <button
-            type="button"
-            className="mt-8 text-white bg-gradient-to-r bg-greenLight hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-greyLight font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          <a
+            href="/files/CV-Alejandro-Bernardo.pdf"
+            download
+            className="mt-8 mr-2 mb-2 "
           >
-            Descargar CV
-          </button>
-
+            <button
+              type="button"
+              className="w-full text-white bg-gradient-to-r bg-greenLight hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-greyLight font-medium rounded-lg text-center text-sm px-5 py-2.5"
+            >
+              Descargar CV
+            </button>
+          </a>
           <p className="mt-8 self-center text-left text-gray-600 font-Caveat text-2xl">
             ¡Interesado en aprender nuevas tecnologías y mejorar las ya
             exploradas!
